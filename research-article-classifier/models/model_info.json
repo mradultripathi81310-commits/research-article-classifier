@@ -1,0 +1,17 @@
+{
+  "algorithm": "LinearSVC",
+  "classes": [
+    "Business",
+    "Science",
+    "Social Science"
+  ],
+  "n_training_rows": 1408,
+  "n_test_rows": 352,
+  "tfidf_max_features": 5000,
+  "tfidf_ngram_range": [
+    1,
+    2
+  ],
+  "test_accuracy": 0.8721590909090909,
+  "scikit_learn_version": "1.8.0"
+}

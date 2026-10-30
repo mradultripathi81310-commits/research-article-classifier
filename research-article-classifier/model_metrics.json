@@ -1,0 +1,69 @@
+{
+  "rows": 1760,
+  "class_counts": {
+    "Business": 598,
+    "Science": 582,
+    "Social Science": 580
+  },
+  "train_rows": 1408,
+  "test_rows": 352,
+  "accuracy": 0.8721590909090909,
+  "macro_precision": 0.8721607434425502,
+  "macro_recall": 0.871743295019157,
+  "macro_f1": 0.8719211982810308,
+  "classification_report": {
+    "Business": {
+      "precision": 0.9159663865546218,
+      "recall": 0.9083333333333333,
+      "f1-score": 0.9121338912133892,
+      "support": 120.0
+    },
+    "Science": {
+      "precision": 0.8869565217391304,
+      "recall": 0.8793103448275862,
+      "f1-score": 0.8831168831168831,
+      "support": 116.0
+    },
+    "Social Science": {
+      "precision": 0.8135593220338984,
+      "recall": 0.8275862068965517,
+      "f1-score": 0.8205128205128205,
+      "support": 116.0
+    },
+    "accuracy": 0.8721590909090909,
+    "macro avg": {
+      "precision": 0.8721607434425502,
+      "recall": 0.871743295019157,
+      "f1-score": 0.8719211982810308,
+      "support": 352.0
+    },
+    "weighted avg": {
+      "precision": 0.8726585348415509,
+      "recall": 0.8721590909090909,
+      "f1-score": 0.8723781607007168,
+      "support": 352.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      109,
+      1,
+      10
+    ],
+    [
+      2,
+      102,
+      12
+    ],
+    [
+      8,
+      12,
+      96
+    ]
+  ],
+  "classes": [
+    "Business",
+    "Science",
+    "Social Science"
+  ]
+}
